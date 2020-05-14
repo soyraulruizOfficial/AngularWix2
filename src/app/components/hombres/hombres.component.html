@@ -1,2 +1,20 @@
-<p>sdflndjkvnmkldsvals</p>
+<div class="contenedor3">
+    <h1 style="margin-left: 40px;">For Men</h1>
 
+<div class="row">
+
+    <div class="col-3"  *ngFor="let p of productosMen">
+        <div class="tarjeta">
+
+            <div>
+                <img (click)="GetIdToChangeScreen(p.id)" [src]="p.img" alt=""> 
+               
+                <span>Mostrar detalles</span>
+            </div>
+            <span>{{p.product}}</span>
+            <span>${{p.price}}</span>
+        </div>
+    </div>
+    
+</div>
+</div>

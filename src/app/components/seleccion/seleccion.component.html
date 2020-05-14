@@ -3,16 +3,16 @@
 <div class="contenedor fadeIn" >
     <p class="en">Home/Producto</p>
     <div class="contenedorimg" > 
-      <img [src]="" alt="" />
+      <img [src]="producto.img" alt="" />
     </div>
     <div class="detalles2">
-      <p >Jabon</p>
-      <p>SKU: <span style="font-size: 10px;">0021</span></p>
+      <p >{{producto.product}}</p>
+      <p>SKU: <span style="font-size: 10px;">00{{producto.id}}</span></p>
       <p>
         <span style="font-weight: bold; color: black; font-size: 20px;"></span
         >
       </p>
-      <p >color:<span style="font-weight: bold; color: black;"></span> </p>
+     
       <p>Selecciona modelo</p>
   
       <select name="" id="medidas" class="form-control n2">
@@ -30,7 +30,7 @@
       <button class="btn btn-success n2 mt-4">Agregar al carrito</button>
   
       <div class="descripcion">
-        <span class="tit">CARACTERISTICAS DEL PRODUCTO</span> <br>
+        <span class="tit">CARACTERISTICAS DEL PRODUCTO</span> {{producto.description}}<br>
       </div>
     </div>
   </div>

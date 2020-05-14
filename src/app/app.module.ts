@@ -12,6 +12,8 @@ import { HombresComponent } from './components/hombres/hombres.component';
 import { MujeresComponent } from './components/mujeres/mujeres.component';
 import { OtrosComponent } from './components/otros/otros.component';
 import { PagComponent } from './components/pag/pag.component';
+import { AboutComponent } from './components/about/about.component';
+import { ContactComponent } from './components/contact/contact.component';
 
 @NgModule({
   declarations: [
@@ -25,6 +27,9 @@ import { PagComponent } from './components/pag/pag.component';
     MujeresComponent,
     OtrosComponent,
     PagComponent,
+    AboutComponent,
+    ContactComponent,
+  
     
   ],
   imports: [

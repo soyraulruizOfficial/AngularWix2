@@ -1,1 +1,20 @@
-<p>mujeres works!</p>
+<div class="contenedor3">
+    <h1 style="margin-left: 40px;">For Men</h1>
+
+<div class="row">
+
+    <div class="col-3"  *ngFor="let producto of productosWoman">
+        <div class="tarjeta">
+
+            <div>
+                <img (click)="GetIdToChangeScreen(producto.id)" [src]="producto.img" alt=""> 
+               
+                <span>Mostrar detalles</span>
+            </div>
+            <span>{{producto.product}}</span>
+            <span>${{producto.price}}</span>
+        </div>
+    </div>
+    
+</div>
+</div>
