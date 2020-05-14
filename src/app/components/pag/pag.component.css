@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Squada+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Slab&display=swap');
+
+
+.titulo{
+    width: 75%;
+    color: white;
+    height: 35vh;
+    background:#B49B7F;
+    text-align: center;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+.titulo >p{
+    margin-top: 20px;
+    font-size: 70px;
+    background: #B49B7F;
+    font-family: 'Sacramento', cursive;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+p >span{
+    font-size: 30px;
+    background: #B49B7F;
+    display: flex;
+    margin-top: -60px;
+    font-family: 'Squada One', cursive;
+    font-weight: normal;
+}
+
+
+.navbar{
+width: 75%;
+background: #B49B7F;
+margin: auto;
+font-family: 'Josefin Slab', serif;
+font-size: 20px;
+display: flex;
+justify-content: center;
+
+}
+ul {
+    width: 100%;
+    background: #B49B7F;
+    justify-content: space-around;
+border-bottom: 1px solid rgba(255, 255, 255, 0.651);
+}
+li{
+    list-style: none;
+    color: white;
+    margin-left: 60px;
+    display: inline-block;
+    cursor: pointer;
+
+}
+.navbar>ul>li>ul>li{
+    width: 100%;
+    /* color: chartreuse; */
+    /* background: red; */
+    margin:8px auto;
+    display: flex;
+}
+.navbar ul>li:hover{
+    color: rgb(110, 34, 21);
+    transition: 0.3s;
+}
+.navbar ul li ul li:hover{
+    color: rgb(110, 34, 21);
+    transition: 0.3s;
+    cursor: pointer ;
+    background: wheat;
+    display: flex;
+        /* margin: auto; */
+
+}
+.navbar >ul>li>ul{
+    display: none;
+    position: absolute;
+    width: 20%;
+    height: 20vh;
+    /* background:blue; */
+    border:1px solid white;
+    transition: 0.3s;
+    
+  
+}
+.navbar>ul>li:hover>ul{
+    margin-left: -50px;
+   
+    cursor: pointer;
+    transition: 0.3s;
+    color: rgba(209, 209, 209, 0.6);
+    display: block;
+    z-index: 3;
+}
+
