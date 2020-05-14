@@ -357,7 +357,7 @@ export const products: ProductsInterface[]=[
     msi: true,
   },
   {
-    id: 16,
+    id: 19,
     brand: 1,
     department: 5,
     product: 'Nike Air Force 1 07',
@@ -388,7 +388,7 @@ export const products: ProductsInterface[]=[
     msi: true,
   },
   {
-    id: 16,
+    id: 20,
     brand: 1,
     department: 5,
     product: 'Tenis Nike Revolution 5',
@@ -418,7 +418,7 @@ export const products: ProductsInterface[]=[
     msi: true,
   },
   {
-    id: 17,
+    id: 21,
     brand: 2,
     department: 5,
     product: 'Tenis Aeropostal Mezclilla Con Plataforma',
@@ -442,7 +442,7 @@ export const products: ProductsInterface[]=[
     msi: false,
   },
   {
-    id: 18,
+    id: 22,
     brand: 2,
     department: 5,
     product: 'Tenis Sneaker Aeropostale ',
@@ -466,7 +466,7 @@ export const products: ProductsInterface[]=[
     msi: false,
   },
   {
-    id: 19,
+    id: 23,
     brand: 3,
     department: 5,
     product: 'Botas levi´s Casuales',
@@ -495,7 +495,7 @@ export const products: ProductsInterface[]=[
     msi: true,
   },
   {
-    id: 20,
+    id: 24,
     brand: 3,
     department: 5,
     product: 'Tenis Casual levi´s',
