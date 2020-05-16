@@ -14,6 +14,7 @@ import { OtrosComponent } from './components/otros/otros.component';
 import { PagComponent } from './components/pag/pag.component';
 import { AboutComponent } from './components/about/about.component';
 import { ContactComponent } from './components/contact/contact.component';
+import { Footer2Component } from './components/footer2/footer2.component';
 
 @NgModule({
   declarations: [
@@ -29,6 +30,7 @@ import { ContactComponent } from './components/contact/contact.component';
     PagComponent,
     AboutComponent,
     ContactComponent,
+    Footer2Component,
   
     
   ],

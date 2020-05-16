@@ -1,13 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Slab&display=swap');
 
-
+hr{
+    background: white;
+    width: 20px;
+    height: 1px;
+}
 .contenedor{
     width: 75%;
     color: white;
     height: 30vh;
     background:#B49B7F;
  margin: auto;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.651);
 
     
 }

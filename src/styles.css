@@ -4,7 +4,15 @@
     height: 100vh;
     background:#B49B7F;
  margin: auto;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.651);
+
+    
+}
+.contenedor{
+    width: 75%;
+    color: white;
+    height: 100vh;
+    background:#B49B7F;
+ margin: auto;
 
     
 }
@@ -13,20 +21,15 @@
     transform: translate(135px,25px);
     display: table-caption;
 }
-.contenedor {
-    /* background: red; */
-    width: 75%;
-    height: 100%;
 
 
 
-}
 .contenedorimg{
     margin-top: 15px;
     width: 40%;
     height: 68vh;
     margin-bottom:30%;
-    background: #E2E2E3;
+    background: rgba(204, 204, 204, 0.356);
     display: inline-block;
     transform: translate(135px,0px);
 }
@@ -87,16 +90,7 @@
 
 
 
-.contenedor3{
-    width: 75%;
-    color: white;
-    height: 100vh;
-    background:#B49B7F;
- margin: auto;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.651);
 
-    
-}
 .tarjeta{
     margin-top: 20px;
     /* background: white; */
@@ -127,17 +121,23 @@
 
     }
 .tarjeta >div img{
-    width: 100%;
+    width: 80%;
     height: 32vh;
     z-index: 2;
-    background:rgba(224, 224, 224, 0.356);
+    
+    background:rgba(250, 247, 247, 0.568)
+}
+.cola {
+    flex: 1 1 39%;
+    max-width: 31%;
+    margin: auto;
 }
 .tarjeta >div>span{
     
     z-index: 2;
     display: block;
     bottom: 0;
-    width: 100%;
+    width: 80%;
     height: 0%;
     text-align: center;
     background: black;

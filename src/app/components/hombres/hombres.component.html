@@ -1,20 +1,21 @@
-<div class="contenedor3">
-    <h1 style="margin-left: 40px;">For Men</h1>
+<div class="contenedor">
+    <h1 style="margin-left: 40px;">For man</h1>
 
 <div class="row">
 
-    <div class="col-3"  *ngFor="let p of productosMen">
+    <div class="cola"  *ngFor="let producto of productosMen">
         <div class="tarjeta">
 
             <div>
-                <img (click)="GetIdToChangeScreen(p.id)" [src]="p.img" alt=""> 
+                <img (click)="GetIdToChangeScreen(producto.id)" [src]="producto.img" alt=""> 
                
                 <span>Mostrar detalles</span>
             </div>
-            <span>{{p.product}}</span>
-            <span>${{p.price}}</span>
+            <span>{{producto.product}}</span>
+            <span>${{producto.price}}</span>
         </div>
     </div>
     
 </div>
 </div>
+<app-footer2></app-footer2>
